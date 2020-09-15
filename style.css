@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.header{
+    height: 80px;
+    background-color: black;
+    /* position: absolute; */
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.dis-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    height: 100%;
+}
+
+.logo-link {   
+    color: white; 
+    font-size: 30px;  
+    letter-spacing: 2px;    
+}
+
+.logo-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.header-menu{
+    width: 30%;
+}
+
+.menu-link {   
+    color: white;   
+    font-size: 20px;
+    position: relative;
+}
+
+.menu-link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-link::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    transition: 1s;
+}
+
+.menu-link:hover::after{
+    width: 100%;
+}
+
+/* main */
+
+.section{
+    height: 100vh;
+    padding-top: 80px;
+}
+
+#home{
+    background: url(https://images.unsplash.com/photo-1545875615-86f54b81a82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80.com/photo-https://images.unsplash.com/photo-1545875615-86f54b81a82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80-9357db572571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-title {
+    color: white;
+    position: absolute;
+    right: 5%;
+    bottom: 30%;
+    background: rgba(0,0,0,0.6);
+    padding: 20px 60px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: color 1s;
+}
+
+.home-title:hover{
+    color: red;
+    background: black
+}
+
+.title{
+    font-size: 60px;
+}
+/* ------------- */
+
+
+#about{
+    background-color: black;
+}
+
+#works{
+    background-color: silver;
+}
+
+#contact{
+    background: url(https://images.unsplash.com/photo-1516375411799-dbdeda1aec94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.blink-1 {
+	animation: blink-1 2s infinite both;
+}
+@keyframes blink-1 {
+ 0%,
+ 50%,
+ 100% {
+   opacity: 1;
+ }
+ 25%,
+ 75% {
+   opacity: 0;
+ }
+}
+
+
+
+
+
+.fade-in {
+	animation: fade-in 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+ @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

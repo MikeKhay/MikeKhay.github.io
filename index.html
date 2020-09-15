@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container dis-flex">
+            <div class="header-logo">
+                <a href="#" class="logo-link">Mike Khay</a>
+            </div>
+            <nav class="header-menu dis-flex">
+                <a href="#about" class="menu-link">About</a>
+                <a href="#works" class="menu-link">Works</a>
+                <a href="#contact" class="menu-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section" id="home">
+            <div class="container">
+                <div class="home-title fade-in">
+                    <h1 class="title">Java-Developer</h1>
+                    <button class="btn btn-secondary blink-1">Write me</button>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="about">About</section>
+        <section class="section" id="works">Works</section>
+        <section class="section" id="contact">
+            <div class="container dis-flex">
+                <div class="contact-map" data-aos="flip-left" data-aos-duration="2000">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20590.831625923765!2d23.999764328691327!3d49.82641008120992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add3457831ed7%3A0x76c75eca488087b6!2sGlobalLogic!5e0!3m2!1sru!2sua!4v1600192749288!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="contact-form" data-aos="flip-right" data-aos-duration="2000">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name   </label>
+                            <input autocomplete="off" type="text" id="name" class="contact-form">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone  </label>
+                            <input autocomplete="off" type="text" id="phone" class="contact-form">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="name" cols="30" rows="10" class="contact-form"></textarea>
+                        </div>
+                        <buttom type="button" class="btn btn-block btn-secondary">Submit</buttom>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
