@@ -132,6 +132,48 @@ body{
     transition: add 1s;
 }
 
+.myWorks1 {
+    width: 60vh;
+    height: 45vh;
+    background: url(1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    border-radius: 15px;
+    transition: add 1s;
+    float: left;
+
+}
+
+.myWorks2 {
+    margin: 2% 0%;
+    width: 60vh;
+    height: 35vh;
+    background: url(2.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    border-radius: 15px;
+    transition: add 1s;
+    float: left;
+
+}
+
+
+.myWorks3 {
+    margin: 8% 0%;
+    position: relative;
+    bottom: 10%;
+    width: 90vh;
+    height: 70vh;
+    background: url(3.png);
+    background-size: cover;
+    background-position: bottom center;
+    border-radius: 15px;
+    float: right;
+    transition: add 1s;
+}
+
+
+
 .title{
     font-size: 60px;
 }
