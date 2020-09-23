@@ -14,10 +14,8 @@ body{
 }
 
 .header{
-    height: 80px;
+    height: 12vh;
     background-color: black;
-    /* position: absolute; */
-    /* position: relative; */
     position: fixed;
     top: 0;
     left: 0;
@@ -36,8 +34,8 @@ body{
 
 .logo-link {   
     color: white; 
-    font-size: 30px;  
-    letter-spacing: 2px;    
+    font-size: 6vh;  
+    letter-spacing: 1vh;    
 }
 
 .logo-link:hover{
@@ -46,12 +44,12 @@ body{
 }
 
 .header-menu{
-    width: 30%;
+    width: 50vh;
 }
 
 .menu-link {   
     color: white;   
-    font-size: 20px;
+    font-size: 4vh;
     position: relative;
 }
 
@@ -79,7 +77,7 @@ body{
 
 .section{
     height: 100vh;
-    padding-top: 80px;
+    padding-top: 10vh;
 }
 
 #home{
@@ -90,11 +88,11 @@ body{
 .home-title {
     color: white;
     position: absolute;
-    right: 5%;
-    bottom: 30%;
+    right: 10vh;
+    bottom: 30vh;
     background: rgba(0,0,0,0.6);
-    padding: 20px 60px;
-    border-radius: 15px;
+    padding: 3vh 8vh;
+    border-radius: 3vh;
     cursor: pointer;
     transition: color 1s;
 }
@@ -105,53 +103,54 @@ body{
 }
 
 .myPhoto{
-    margin: 10% 0%;
+    margin: 10vh 0vh;
     position: relative;
-    bottom: 10%;
     width: 60vh;
     height: 70vh;
     background: url(https://scontent.fiev21-2.fna.fbcdn.net/v/t1.0-9/82668086_465164657497517_5239073555169148928_o.jpg?_nc_cat=107&_nc_sid=174925&_nc_ohc=MQoNKUYxC0AAX9WC8ZP&_nc_ht=scontent.fiev21-2.fna&oh=e148c2893203471c4ae846415c93247d&oe=5F88530B);
     background-size: cover;
     background-position: bottom center;
-    border-radius: 15px;
+    border-radius: 3vh;
     float: left;
     transition: add 1s;
 }
 
+
 .myInfo{
-    top: 5%;
-    margin: 2% 0%;
+    top: 6vh;
+    margin: 3vh 0vh;
     position: relative;
     width: 80vh;
     height: auto;
     background: rgba(255, 253, 253, 0.8);
-    border-radius: 15px;
+    border-radius: 3vh;
     float: right;
-    font-size: 25px;
-    padding: 10px;
+    font-size: 4vh;
+    padding: 1vh;
     transition: add 1s;
 }
 
 .myWorks1 {
+    margin: 4vh 0vh 0vh 0vh;
     width: 60vh;
     height: 45vh;
     background: url(1.jpg);
     background-size: cover;
     background-position: bottom center;
-    border-radius: 15px;
+    border-radius: 3vh;
     transition: add 1s;
     float: left;
 
 }
 
 .myWorks2 {
-    margin: 2% 0%;
+    margin: 4vh 0vh;
     width: 60vh;
     height: 35vh;
     background: url(2.jpg);
     background-size: cover;
     background-position: bottom center;
-    border-radius: 15px;
+    border-radius: 3vh;
     transition: add 1s;
     float: left;
 
@@ -159,15 +158,15 @@ body{
 
 
 .myWorks3 {
-    margin: 8% 0%;
+    margin: 14vh 0vh 0vh 0vh;
     position: relative;
-    bottom: 10%;
+    bottom: 10vh;
     width: 90vh;
     height: 70vh;
     background: url(3.png);
     background-size: cover;
     background-position: bottom center;
-    border-radius: 15px;
+    border-radius: 3vh;
     float: right;
     transition: add 1s;
 }
@@ -175,7 +174,7 @@ body{
 
 
 .title{
-    font-size: 60px;
+    font-size: 10vh;
 }
 /* ------------- */
 
