@@ -63,7 +63,7 @@ body{
     display: block;
     width: 0%;
     height: 2px;
-    background-color: red;
+    background-color: rgb(157, 63, 0);
     position: absolute;
     bottom: 0;
     transition: 1s;
@@ -81,7 +81,7 @@ body{
 }
 
 #home{
-    background: url(https://images.unsplash.com/photo-1545875615-86f54b81a82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80.com/photo-https://images.unsplash.com/photo-1545875615-86f54b81a82d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80-9357db572571?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background: url(4.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -98,7 +98,7 @@ body{
 }
 
 .home-title:hover{
-    color: red;
+    color:rgb(157, 63, 0);
     background: black
 }
 
